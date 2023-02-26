@@ -14,6 +14,10 @@ public class SimpleFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
